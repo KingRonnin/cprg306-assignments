@@ -1,4 +1,4 @@
-
+import item from './item.js'
 
 export default function itemList() {
     const item1 = {
