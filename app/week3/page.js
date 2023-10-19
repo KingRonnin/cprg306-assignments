@@ -1,4 +1,4 @@
-import itemList from '../item-list.js';
+import ItemList from '../item-list.js';
 import Link from 'next/Link';
 
 export default function Week3() {
@@ -10,7 +10,7 @@ export default function Week3() {
             </h1>
             </div>
                 <div>
-                    <itemList />
+                    <ItemList />
                     <Link className="mb-1 text-2xl font-semibold" href="/">Home</Link>
                 </div>
         </main>
