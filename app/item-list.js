@@ -1,3 +1,4 @@
+"use clients"
 import Item from './item.js'
 
 export default function ItemList() {
