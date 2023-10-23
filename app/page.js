@@ -14,6 +14,7 @@ export default function Home() {
         <Link className="mb-1 text-2xl font-semibold" href="/week2">Week 2</Link>
         <Link className="mb-1 text-2xl font-semibold" href="/week3">Week 3</Link>
         <Link className="mb-1 text-2xl font-semibold" href="/week4">Week 4</Link>
+        <Link className="mb-1 text-2xl font-semibold" href="/week5">Week 5</Link>
       </div>
     </main>
   );
