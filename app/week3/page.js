@@ -1,6 +1,6 @@
-import ItemList from '../item-list.js';
+import ItemList from './item-list.js';
 import Link from 'next/Link';
-import  Item  from '../item.js';
+import  Item  from './item.js';
 export default function Week3() {
     return (
         <main className="flex min-h-screen flex-col items-center justify-between p-24">
