@@ -6,7 +6,7 @@ import ItemList from './item-list.js';
 import itemsData from './items.json'; 
 import MealsIdeas from './meal-ideas.js'
 
-export default function Page() {
+function Page() {
     const [items, setItems] = useState(itemsData);
     const [selectedItemName, setSelectedItemName] = useState("");
 
@@ -30,3 +30,5 @@ export default function Page() {
         </div>
     );
 }
+
+export default Page;
